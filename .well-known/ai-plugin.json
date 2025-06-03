@@ -5,6 +5,11 @@
     "version": "1.0.0",
     "description": "Get static map image from Naver Maps using location text"
   },
+  "servers": [
+    {
+      "url": "https://gpt-map-service.vercel.app"
+    }
+  ],
   "paths": {
     "/map": {
       "get": {
